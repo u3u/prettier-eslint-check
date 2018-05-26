@@ -17,6 +17,7 @@
   "keywords": [
     "prettier",
     "prettier-eslint",
+    "prettier-check",
     "ci",
     "check",
     "lint",
