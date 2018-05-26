@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ yarn prettier prettier-eslint-cli prettier-eslint-check --dev
+$ yarn add prettier prettier-eslint-cli prettier-eslint-check --dev
 ```
 
 > Make sure you have `prettier` and `prettier-eslint-cli` as a dependency (or globally).
