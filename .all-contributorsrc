@@ -1,0 +1,32 @@
+{
+  "projectName": "prettier-eslint-check",
+  "projectOwner": "u3u",
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contributors)",
+  "repoType": "github",
+  "commit": false,
+  "contributors": [
+    {
+      "login": "u3u",
+      "name": "さくら",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20062482?v=4",
+      "profile": "https://qwq.cat",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
+    },
+    {
+      "login": "hexacta",
+      "name": "Hexacta",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1241714?v=4",
+      "profile": "http://www.hexacta.com",
+      "contributions": [
+        "code",
+        "doc",
+        "test",
+        "ideas"
+      ]
+    }
+  ]
+}

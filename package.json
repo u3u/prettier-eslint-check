@@ -1,0 +1,64 @@
+{
+  "name": "prettier-eslint-check",
+  "description": "Check that all files match prettier-eslint code style.",
+  "version": "0.1.0",
+  "author": "u3u <qwq@qwq.cat>",
+  "license": "MIT",
+  "homepage": "https://github.com/u3u/prettier-eslint-check#readme",
+  "repository": {
+    "url": "git+https://github.com/u3u/prettier-eslint-check.git",
+    "type": "git"
+  },
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "prettier",
+    "prettier-eslint",
+    "ci",
+    "check",
+    "lint",
+    "style",
+    "formatter",
+    "code-style"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint \"{cli,index,test}.js\"",
+    "format": "prettier-eslint \"{cli,index,test}.js,*.md\" --write",
+    "contributors": "all-contributors"
+  },
+  "dependencies": {
+    "execa": "^0.10.0",
+    "prettier": "^1.12.1",
+    "prettier-eslint-cli": "^4.7.1"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^4.11.1",
+    "ava": "^0.25.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "lint-staged": "^7.1.2",
+    "yorkie": "^1.0.3"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "{cli,index,test}.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "{cli,index,test}.js,*.md": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  }
+}
