@@ -40,7 +40,7 @@
     "prettier-eslint-cli": "^4.7.1"
   },
   "devDependencies": {
-    "all-contributors-cli": "^4.11.1",
+    "all-contributors-cli": "^5.0.0",
     "ava": "^0.25.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
