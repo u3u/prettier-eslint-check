@@ -124,8 +124,8 @@ ajv@^6.5.3:
     uri-js "^4.2.2"
 
 all-contributors-cli@^5.0.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-5.4.0.tgz#a2870d83920d5f16bece0045649f9ebbf7315909"
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-5.4.1.tgz#c385cd7241f33ff381048c3ed81607eddecd2f4b"
   dependencies:
     async "^2.0.0-rc.1"
     chalk "^2.3.0"
