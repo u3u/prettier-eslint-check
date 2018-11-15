@@ -1,7 +1,7 @@
 {
   "name": "prettier-eslint-check",
   "description": "Check that all files match prettier-eslint code style.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "u3u <qwq@qwq.cat>",
   "license": "MIT",
   "homepage": "https://github.com/u3u/prettier-eslint-check#readme",
