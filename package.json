@@ -36,13 +36,13 @@
   },
   "dependencies": {
     "execa": "^1.0.0",
-    "prettier": "^1.12.1",
+    "prettier": "^1.15.2",
     "prettier-eslint-cli": "^4.7.1"
   },
   "devDependencies": {
-    "all-contributors-cli": "^5.0.0",
+    "all-contributors-cli": "^5.4.1",
     "ava": "^0.25.0",
-    "eslint": "^5.0.0",
+    "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.12.0",
