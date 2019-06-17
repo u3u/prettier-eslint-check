@@ -37,7 +37,7 @@
   "dependencies": {
     "execa": "^1.0.0",
     "prettier": "^1.15.2",
-    "prettier-eslint-cli": "^4.7.1"
+    "prettier-eslint-cli": "^5.0.0"
   },
   "devDependencies": {
     "all-contributors-cli": "^5.4.1",
