@@ -35,7 +35,7 @@
     "contributors": "all-contributors"
   },
   "dependencies": {
-    "execa": "^1.0.0",
+    "execa": "^2.0.0",
     "prettier": "^1.15.2",
     "prettier-eslint-cli": "^4.7.1"
   },
